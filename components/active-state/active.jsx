@@ -43,10 +43,10 @@ const Active = () => {
                   </div>
                 </div>
                 <div className="right-side">
-                    <img src="src/assets/illustration-sign-up-desktop.svg" alt="Sign Up Illustration" />
-                </div>
-            </div>
+                    <img src="/illustration-sign-up-desktop.svg" alt="illustration" />
         </div>
+    </div>
+    </div>
         
     )
 }

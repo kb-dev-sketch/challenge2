@@ -1,3 +1,56 @@
+@media(max-width:768px){
+
+  .active-container {
+    height: auto;
+    display: block;
+    padding: 15px;
+  }
+
+  .active-box{
+    display:block;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+  .right-side{
+    width: 100%;
+    order: 1;
+  }
+
+  .right-side img{
+    width: 100%;
+    height: auto;
+    display: block;
+    content: url("illustration-sign-up-mobile.svg");
+     width: 100%;
+  }
+
+  .left-side{
+    width: 100%;
+    order: 2;
+    padding: 20px;
+  }
+
+  .heading{
+    font-size: 28px;
+    text-align: left;
+    margin-top: 0;
+  }
+
+  .form-container{
+    margin-left:0;
+    width:100%;
+  }
+
+  .email-input,
+  .subscribe-button{
+    width:100%;
+  }
+}
+
 body{
   margin:0;
   padding:0;
@@ -9,14 +62,15 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  border:2px solid black;
 }
 .active-box {
-  width: 700px;
-  height: 500px;
+  width: 50%;
+  height: auto;
   border-radius: 20px;
   display:flex;
   flex-direction:row;
-  background-color: white;
+  background-color: white ;
 }
 .left-side{
 width:50%;
@@ -97,3 +151,4 @@ justify-content: space-between;
 .form-label{
   color:black;
 }
+
