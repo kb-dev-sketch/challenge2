@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://kb-dev-sketch.github.io/validation-form",
+  "homepage": "https://kb-dev-sketch.github.io/challenge-2",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
