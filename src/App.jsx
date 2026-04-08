@@ -9,6 +9,10 @@ const App=()=>{
             <Routes>
                 <Route path="/" element={<Active />} />
                 <Route path="/afterstate" element={<AfterState />} />
+                        <Route path="*" element={<Active />} /> {/* fallback */}
+
+                
+
             </Routes>
         </HashRouter>
     )
