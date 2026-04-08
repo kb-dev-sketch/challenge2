@@ -1,15 +1,16 @@
 import Active from "../components/active-state/active";
 import AfterState from "../components/afterstate/after-state";
-import {BrowserRouter,Routes,Route} from "react-router-dom";
+import {Routes,Route} from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 const App=()=>{
     return(
-        <BrowserRouter>
+        <HashRouter>
             <Routes>
                 <Route path="/" element={<Active />} />
                 <Route path="/afterstate" element={<AfterState />} />
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 export default App;
