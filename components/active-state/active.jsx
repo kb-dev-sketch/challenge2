@@ -1,7 +1,8 @@
 import "./active.css";
 import { useState} from "react";
 import {useNavigate} from "react-router-dom";
-
+import icon from "src/assets/icon-list.svg";
+import desktopImg from "..public/illustration-sign-up-desktop.svg";
 
 const Active = () => {
     const [email,setEmail]=useState("");
@@ -24,9 +25,9 @@ const Active = () => {
                     <h1 className="heading"> Stay Updated!</h1>
                     
                     <p className="list-item">Join 60,000+ product managers receiving monthly updates on:</p>
-                     <p className="list-item"><img src="src/assets/icon-list.svg" alt="list icon" />And much more!</p>
-                  <p className="list-item"><img src="src/assets/icon-list.svg" alt="list icon" />Product discovery and building what matters</p>
-                  <p className="list-item"><img src="src/assets/icon-list.svg" alt="list icon" />The latest trends and best practices</p>
+                     <p className="list-item"><img src={icon} alt="list icon" />And much more!</p>
+                  <p className="list-item"><img src={icon} alt="list icon" />Product discovery and building what matters</p>
+                  <p className="list-item"><img src={icon} alt="list icon" />The latest trends and best practices</p>
                   <div className="form-container">
                          <div className="email-error">
                           <label className="form-label" htmlFor="email">Email Address</label>
@@ -43,7 +44,7 @@ const Active = () => {
                   </div>
                 </div>
                 <div className="right-side">
-                    <img src="/illustration-sign-up-desktop.svg" alt="illustration" />
+                    <img src={desktopImg} alt="illustration" />
         </div>
     </div>
     </div>
