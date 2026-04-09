@@ -1,8 +1,8 @@
 import "./active.css";
 import { useState} from "react";
 import {useNavigate} from "react-router-dom";
-import icon from "src/assets/icon-list.svg";
-import desktopImg from "..public/illustration-sign-up-desktop.svg";
+import icon from "/icon-list.svg";
+import desktopImg from "/illustration-sign-up-desktop.svg";
 
 const Active = () => {
     const [email,setEmail]=useState("");
